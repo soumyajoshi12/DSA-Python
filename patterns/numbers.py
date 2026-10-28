@@ -113,4 +113,94 @@
 
 #8.
 
-n = int(input("no of rows"))
+# 1 1 1 1 
+#   2 2 2 
+#     3 3 
+#       4 
+
+# n = int(input("no of rows"))
+# i= 1
+# while(i<=n):
+#     space = 1
+#     while(space < i):
+#         print(" ",end=' ')
+#         space = space+1
+#     j=1
+#     while(j <= n-i+1):
+#         print(i, end=' ')
+#         j=j+1
+#     i=i+1
+#     print()
+
+
+# 9.
+
+#    1
+#   22
+#  333
+# 4444
+
+# n=int(input('enter row no.'))
+# i=1
+# while(i<=n):
+#    space = 1
+#    while(space <= n-i):
+#       print(" ", end='')
+#       space=space+1
+#    j=1
+#    while(j <= i ):
+#       print(i,end='')
+#       j=j+1
+#    i=i+1
+#    print()
+
+# 10.
+
+#       1 
+#     1 2 1 
+#   1 2 3 2 1 
+# 1 2 3 4 3 2 1 
+
+# n= int(input("enter no of rows"))
+# i=1
+# while(i<=n):
+#    space =1
+#    while(space <= n-i):
+#       print(" ",end=' ')
+#       space=space+1
+#    j=1
+#    while(j<=i):
+#       print(j,end=' ')
+#       j=j+1
+#    k=i-1
+#    while(k>=1):
+#       print(k,end=' ')
+#       k=k-1
+#    i=i+1
+#    print()
+
+# 11.
+
+# 1234554321
+# 1234**4321
+# 123****321
+# 12******21
+# 1********1
+
+n= int(input("enter no of rows"))
+i=1
+while(i<=n):
+   k=1
+   while(k<=n-i+1):
+      print(k,end='')
+      k=k+1
+   j=1
+   while(j<=2*(i-1)):
+      print("*",end='')
+      j=j+1
+   l=n-i+1
+   while(l>0):
+      print(l,end='')
+      l=l-1
+   i=i+1
+   print()
